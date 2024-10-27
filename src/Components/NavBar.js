@@ -24,7 +24,7 @@ function NavBar() {
       <nav className="nav">
 
       <header>
-      <a href="#" id="textlogo">WonderAdventures</a>
+      <h3 id="textlogo">WonderAdventures</  h3>
       <ul class="navbar" >
        <NavLink to="/"> <li><a href="#home">Home</a></li></NavLink> 
        <NavLink to="/booking"> <li><a href="#about">Booking</a></li></NavLink>
@@ -38,6 +38,7 @@ function NavBar() {
       <img
         className="img2"
         src="https://i.pinimg.com/564x/2e/4f/d3/2e4fd3fd8f2aff9c26b15c1f1c23b11e.jpg"
+        alt="logo"
        onClick={handleSignUp} />
     </div>
   );

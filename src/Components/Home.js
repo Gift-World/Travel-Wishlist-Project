@@ -83,7 +83,7 @@ function Home() {
 			
 			 <footer>
       <div class="footerdetails">
-        <a href="#" id="textlogo">WonderAdventures</a>
+        <h3 id="textlogo">WonderAdventures</h3>
         <p className='footer-p'> &copy; WonderAdventures, 2024 All Rights Reserved</p>
         <ul>
           <li>
